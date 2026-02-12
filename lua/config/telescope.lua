@@ -1,0 +1,2 @@
+-- Telescope 配置（插件配置已迁移到 lazy.nvim）
+-- 此文件保留 Telescope 相关的全局设置（如果有的话）

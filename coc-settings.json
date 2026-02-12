@@ -1,0 +1,65 @@
+{
+    "coc.preferences.enableLoadMessage": false,
+    "coc.preferences.formatOnType": true,
+    "coc.preferences.formatOnSave": true,
+    // Python配置
+    "python.pythonPath": "/data/data/com.termux/files/home/.cache/pypoetry/virtualenvs/python-template-Izr8qAmb-py3.12/bin/python",
+    "pyright.enable": true,
+    // Lua配置
+    "lua.workspace.checkThirdParty": false,
+    "lua.enable": true,
+    // 自定义Server
+    "languageserver": {
+        "lua": {
+            "command": "lua-language-server",
+            "filetypes": [
+                "lua"
+            ],
+            "rootPatterns": [
+                ".git"
+            ],
+            "settings": {
+                "Lua": {
+                    "runtime": {
+                        "version": "LuaJIT"
+                    },
+                    "diagnostics": {
+                        "globals": [
+                            "vim"
+                        ]
+                    },
+                    "workspace": {
+                        "library": [],
+                        "checkThirdParty": false
+                    },
+                    "telemetry": {
+                        "enable": false
+                    }
+                }
+            }
+        }
+    },
+    // C++配置
+    "clangd.path": "clangd",
+    "clangd.arguments": [
+        "--background-index",
+        "--clang-tidy"
+    ],
+    // JavaScript/TypeScript
+    "tsserver.enable": true,
+    "tsserver.useSyntaxServer": "auto",
+    "typescript.format.enable": true,
+    "typescript.suggest.autoImports": true,
+    "typescript.showUnused": true,
+    // HTML/CSS
+    "html.enable": true,
+    "html.autoClosingTags": true,
+    "css.enable": true,
+    "css.format.enable": true,
+    "emmet.includeLanguages": {
+        "html": "html",
+        "javascript": "javascriptreact"
+    },
+    "copilot.enable": true,
+    "copilot.trace.server": "trace"
+}
