@@ -1,7 +1,7 @@
 -- 基础设置
 -- 必须在插件加载之前设置 leader 键
-vim.g.mapleader = ";"
-vim.g.maplocalleader = ";"
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 require("config.options")
 -- 插件管理 (lazy.nvim)
